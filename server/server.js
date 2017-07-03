@@ -65,3 +65,7 @@ io.on('connection', (socket) => {
 server.listen(port, () => {
   console.log(`Server is up on port ${port}`);
 });
+
+// case insensitive for room
+// make user name unique
+// list of currently active
